@@ -54,7 +54,6 @@ public class Aula05Repeticao {
         }
 
         System.out.println("Execução encerrada");
-        
         /**
          * Do While (execute, enquanto)
          * É executada uma estrutura de código e após é validada a condição
