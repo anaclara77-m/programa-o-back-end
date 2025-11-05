@@ -22,7 +22,7 @@ public abstract class Animal {
         this.peso = peso;
     }
 
-        // O método som será implementado somente pelas subclasses que herdam de animal
+    // O método som será implementado somente pelas subclasses que herdam de animal
     public abstract void emitirSom();
 
     public void respirar() {
@@ -30,12 +30,14 @@ public abstract class Animal {
     }
 
     public void mover() {
-        // Nota: O atributo 'nome' deve estar declarado na classe. Ex: 'protected String nome;'
+        // Nota: O atributo 'nome' deve estar declarado na classe. Ex: 'protected String
+        // nome;'
         System.out.println(this.nome + " está se movendo...");
     }
 
     public void mover(String direcao) {
         System.out.println(this.nome + "está se moveno . . .");
+    }
 
     public String getNome() {
         return nome;
